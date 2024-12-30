@@ -11,7 +11,7 @@ and cast(s.order_date as date) = cast(ex.date as date)
 group by p.product_name
 order by totalspent desc
 
-select top 10 * from GER_stores
+![image](https://github.com/user-attachments/assets/d91e6116-2f22-4be5-8745-ce65f6989d6c)
 
 --Best selling products (Amount Sold)
 select top 10 
