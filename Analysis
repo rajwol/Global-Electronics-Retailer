@@ -11,7 +11,9 @@ on s.currency_code = ex.currency_code
 and cast(s.order_date as date) = cast(ex.date as date)
 group by p.product_name
 order by totalspent desc
+```
 
+```sql
 --Best selling products (Amount Sold)
 select top 10 
 p.product_name as product,
