@@ -1,5 +1,6 @@
 ```sql
 Key Performance Indicators (KPIs)
+
 --Gross Profit
 SELECT 
     SUM((s.Quantity * p.Unit_Price_USD * ROUND(ex.Exchange_Rate, 2)) - 
