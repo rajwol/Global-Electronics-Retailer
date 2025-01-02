@@ -1,0 +1,29 @@
+```sql
+--Best selling products (revenue)
+select top 10 
+p.product_name as product,
+round(sum(s.quantity * p.unit_price_usd * ex.exchange_rate),2) as totalspent
+from ger_sales s
+left join ger_products p 
+on s.product_id = p. product_id
+left join ger_exchange_rates ex 
+on s.currency_code = ex.currency_code
+and cast(s.order_date as date) = cast(ex.date as date)
+group by p.product_name
+order by totalspent desc
+
+--Best selling products (Amount Sold)
+select top 10 
+p.product_name as product,
+sum(quantity) as amountsold
+from ger_sales s
+left join ger_products p 
+on s.product_id = p. product_id
+left join ger_exchange_rates ex 
+on s.currency_code = ex.currency_code
+and cast(s.order_date as date) = cast(ex.date as date)
+group by p.product_name
+order by amountsold desc
+```
+
+![Best selling products GER](https://github.com/user-attachments/assets/b14d83d7-7f57-4162-8205-7312be4f419b)
