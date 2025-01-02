@@ -4,6 +4,8 @@
 
 This project focuses on analyzing transactional data for an store selling various electronic goods and services. The schema consists of multiple tables all relevant with information on transactions, products, customers, various stores, and daily currency rates. 
 
+Dashboard link: https://public.tableau.com/views/GlobalElectronicsRetailer_17352828205570/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ## **Objectives**
 
 1. **Evaluate Performance and Trends**: Assess Key Performance Indicators (KPIs) including gross profit, revenue growth, delivery times, and seasonality within sales patterns to identify strengths as well as areas the company can look to improve on
