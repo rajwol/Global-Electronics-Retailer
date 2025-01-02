@@ -4,7 +4,7 @@
 
 This project focuses on analyzing transactional data for an store selling various electronic goods and services. The schema consists of multiple tables all relevant with information on transactions, products, customers, various stores, and daily currency rates. 
 
-Dashboard link: https://public.tableau.com/views/GlobalElectronicsRetailer_17352828205570/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+**Dashboard link**: https://public.tableau.com/views/GlobalElectronicsRetailer_17352828205570/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## **Objectives**
 
